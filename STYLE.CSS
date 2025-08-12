@@ -1,0 +1,131 @@
+<style>
+            .navbar{
+                background-color: bisque;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+            .navdiv{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            nav{
+                padding: 20px;
+            }
+            .logo a{
+                font-size: 35px;
+                font-weight: 600;
+                color: black;
+            }
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+            li a{
+                color: black;
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 25px;
+            }
+           .carousel-container {
+                position: relative;
+                width: 100%;
+                max-width: 100%;
+                overflow: hidden;
+            }
+
+            .scroll-container {
+                display: flex;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                scroll-snap-type: x mandatory;
+                scrollbar-width: none; 
+            }
+            .scroll-container::-webkit-scrollbar {
+                display: none; 
+            }
+
+            .scroll-container img {
+                flex: 0 0 auto;
+                width: 300px;
+                height: auto;
+                margin-right: 10px;
+                scroll-snap-align: start;
+                border-radius: 8px;
+            }
+
+            .scroll-btn {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background-color: rgba(0,0,0,0.5);
+                color: white;
+                border: none;
+                font-size: 2rem;
+                padding: 10px;
+                text-decoration: none;
+                z-index: 10;
+            }
+           .scroll-btn-left {
+                left: 0;
+            }
+           .scroll-btn-right {
+                right: 0;
+            }
+           .scroll-btn:hover {
+                background-color: rgba(0,0,0,0.7);
+            }
+             .contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff8f0; /* Light travel theme background */
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #ff8c42; /* Travel vibe orange */
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+        .contact-form input[type="submit"]:hover {
+        background-color: #e67630;
+}
+        .para{
+        background-color: lightcyan;
+        color: black;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    }
+         
+        .cont{
+                text-align: center;
+             }
+    </style>
