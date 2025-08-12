@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title> The Travel Train </title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <nav class="navbar">
+            <div class="navdiv">
+            <div class="logo"><a href="#"> THE TRAVEL TRAIN </a></div>
+            <ul>
+                <li><a href="#"> HOME </a></li>
+                <li><a href="#"> THINGS TO DO </a></li>
+                <li><a href="#"> WHERE TO GO </a></li>
+                <li><a href="#"> WHAT TO SEE </a></li>
+                <li><a href="#"> PLAN YOUR TRIP </a></li>
+                <li><a href="#"> SEARCH &#128269; </a></li>
+            </ul>
+            </div>
+        </nav>
+        <P CLASS="PARA">"Welcome to our travel website — your trusted partner in creating unforgettable journeys.
+
+            We bring you inspiring destination guides, hidden gems, and authentic local experiences that go beyond the usual.
+From sunny beaches and majestic mountains to vibrant cities and cultural festivals, we help you explore the world in your own style.
+Our easy itineraries, travel tips, and handpicked recommendations make planning simple and exciting.
+Whether it’s a quick weekend escape, a romantic getaway, or an adventurous holiday, we’re here to make every trip smooth, memorable, and full of stories worth sharing.
+Your next adventure starts here — let’s travel together!"!</P>
+        
+
+
+
+        <div class="carousel-container">
+            <button class="scroll-btn-left" onclick="scrollLeft()">&#10094;</button>
+              <div class="scroll-container">
+                 <img src="kashmir.jpeg" width="200px" height="300px"/>
+                 <img src="maharashtra.jpeg" width="200px" height="300px"/>
+                 <img src="rajasthan.jpeg" width="200px" height="300px"/>
+                 <img src="BIHAR.jpeg" width="200px" height="300px"/>
+                 <img src="punjab.jpeg" width="200px" height="300px"/>
+                 <img src="ASSAM.jpeg" width="200px" height="300px"/>
+                 <img src="sikkim.jpeg" width="200px" height="300px"/>
+                 <img src="CHHATTISGARH.jpg" width="200px" height="300px"/>
+              </div>
+            <button class="scroll-btn-right" onclick="scrollRight()">&#10095;</button>  
+        </div> 
+        <h2 class="cont">Contact Us</h2>
+        <form action="submit_form.php" method="post" class="contact-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+        <input type="submit" value="Send Message">
+        </form>
+   
+    </body>
+</html>
